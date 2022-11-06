@@ -15,6 +15,19 @@ git remote add origin git@github.com:ABC/XYZ.git
 git push -u origin main
 ```
 
+# Install Dependencies
+## TailWind
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+https://tailwindcss.com/docs/guides/nextjs
+
+## React-Icons
+```
+npm add react-icons
+```
+
 # Generate static webpages (SSG)
 ## Change build
 Open `package.json`
