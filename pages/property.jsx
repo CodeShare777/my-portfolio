@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import { RiRadioButtonFill } from 'react-icons/ri';
-import Link from 'next/link';
+import Image from "next/image";
+import React from "react";
+import propertyImg from "../public/assets/projects/property.jpg";
+import { RiRadioButtonFill } from "react-icons/ri";
+import Link from "next/link";
 
 const property = () => {
   return (
@@ -37,7 +37,7 @@ const property = () => {
             properties. This is made possible with Zillow API.
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/facebook/react/property-finder'
             target='_blank'
             rel='noreferrer'
           >

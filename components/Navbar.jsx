@@ -1,17 +1,17 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import Image from "next/image";
+import Link from "next/link";
+import React, { useState, useEffect } from "react";
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from "../public/assets/navLogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
   // const [position, setPosition] = useState('fixed')
   // const router = useRouter();
 
@@ -42,7 +42,7 @@ const Navbar = () => {
         setShadow(false);
       }
     };
-    window.addEventListener('scroll', handleShadow);
+    window.addEventListener("scroll", handleShadow);
   }, []);
 
   return (
@@ -50,8 +50,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
+          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
+          : "fixed w-full h-20 z-[100]"
       }
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
@@ -102,27 +102,22 @@ const Navbar = () => {
       {/* Overlay */}
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
         {/* Side Drawer Menu */}
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+              ? " fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-300"
+              : "fixed right-[-100%] top-0 p-10 ease-in duration-300"
           }
         >
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
                 <a>
-                  <Image
-                    src={NavLogo}
-                    width='87'
-                    height='35'
-                    alt='/'
-                  />
+                  <Image src={NavLogo} width='87' height='35' alt='/' />
                 </a>
               </Link>
               <div
@@ -177,7 +172,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/farid-sheikh/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +181,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/facebook/react'
                   target='_blank'
                   rel='noreferrer'
                 >

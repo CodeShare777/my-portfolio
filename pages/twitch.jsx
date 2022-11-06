@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
-import twitchImg from '../public/assets/projects/twitch.jpg';
-import { RiRadioButtonFill } from 'react-icons/ri';
-import Link from 'next/link';
+import Image from "next/image";
+import React from "react";
+import twitchImg from "../public/assets/projects/twitch.jpg";
+import { RiRadioButtonFill } from "react-icons/ri";
+import Link from "next/link";
 
 const twitch = () => {
   return (
@@ -43,13 +43,12 @@ const twitch = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
           <a
-            href='https://github.com/fireclint/twitch-nextjs-tailwind'
+            href='https://github.com/facebook/react/twitch-nextjs-tailwind'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Code</button>
           </a>
-
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
