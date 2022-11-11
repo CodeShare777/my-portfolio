@@ -27,11 +27,6 @@ const About = () => {
             using Django and Node.js. Then I worked with React for some time and
             now exploring Next.js.
           </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
-            </p>
-          </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
