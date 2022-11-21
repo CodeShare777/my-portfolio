@@ -33,7 +33,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={AWS} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>AWS</h3>
               </div>
             </div>
@@ -43,7 +43,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Terraform} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>Terraform</h3>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Kubernetes} width='52px' height='52px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>Kubernetes</h3>
               </div>
             </div>
@@ -63,7 +63,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Docker} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>Docker</h3>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Python} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>Python</h3>
               </div>
             </div>
@@ -83,7 +83,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Django} width='52px' height='52px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>Django</h3>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Javascript} width='56px' height='56px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>JavaScript</h3>
               </div>
             </div>
@@ -103,7 +103,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Nodejs} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>Node.js</h3>
               </div>
             </div>
@@ -113,7 +113,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Cpp} width='56px' height='56px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>C++</h3>
               </div>
             </div>
@@ -123,7 +123,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Bash} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>Bash</h3>
               </div>
             </div>
@@ -133,7 +133,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Jenkins} width='56px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>Jenkins</h3>
               </div>
             </div>
@@ -143,7 +143,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Github} width='60px' height='60px' alt='/' />
               </div>
-              <div className='flex flex-col items-left justify-left'>
+              <div className='flex flex-col items-center justify-left'>
                 <h3>Actions</h3>
               </div>
             </div>
