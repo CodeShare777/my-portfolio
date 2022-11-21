@@ -11,7 +11,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>Who Am I</h2>
           <p className='py-2 text-gray-600'>
             I am a DevOps specialist who loves both backend and frontend. I am
             working at Thoughtworks as a Lead Developer, where I make use of my

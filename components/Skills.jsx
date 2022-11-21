@@ -16,6 +16,8 @@ import Jenkins from "../public/assets/skills/jenkins.png";
 import Cpp from "../public/assets/skills/cpp.png";
 import Docker from "../public/assets/skills/docker.png";
 import Nodejs from "../public/assets/skills/nodejs.png";
+import Django from "../public/assets/skills/django.png";
+import Bash from "../public/assets/skills/bash.png";
 
 const Skills = () => {
   return (
@@ -31,7 +33,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={AWS} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-left justify-left'>
                 <h3>AWS</h3>
               </div>
             </div>
@@ -41,7 +43,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Terraform} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-left justify-left'>
                 <h3>Terraform</h3>
               </div>
             </div>
@@ -49,9 +51,9 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Kubernetes} width='64px' height='64px' alt='/' />
+                <Image src={Kubernetes} width='52px' height='52px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-left justify-left'>
                 <h3>Kubernetes</h3>
               </div>
             </div>
@@ -61,7 +63,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Docker} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-left justify-left'>
                 <h3>Docker</h3>
               </div>
             </div>
@@ -71,7 +73,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Python} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-left justify-left'>
                 <h3>Python</h3>
               </div>
             </div>
@@ -79,40 +81,20 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Cpp} width='64px' height='64px' alt='/' />
+                <Image src={Django} width='52px' height='52px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>C++</h3>
+              <div className='flex flex-col items-left justify-left'>
+                <h3>Django</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Javascript} width='64px' height='64px' alt='/' />
+                <Image src={Javascript} width='56px' height='56px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-left justify-left'>
                 <h3>JavaScript</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Html} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={ReactImg} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>React</h3>
               </div>
             </div>
           </div>
@@ -121,28 +103,48 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Nodejs} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Nodejs</h3>
+              <div className='flex flex-col items-left justify-left'>
+                <h3>Node.js</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Github} width='64px' height='64px' alt='/' />
+                <Image src={Cpp} width='56px' height='56px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Github</h3>
+              <div className='flex flex-col items-left justify-left'>
+                <h3>C++</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Jenkins} width='64px' height='64px' alt='/' />
+                <Image src={Bash} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-left justify-left'>
+                <h3>Bash</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Jenkins} width='56px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-left justify-left'>
                 <h3>Jenkins</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Github} width='60px' height='60px' alt='/' />
+              </div>
+              <div className='flex flex-col items-left justify-left'>
+                <h3>Actions</h3>
               </div>
             </div>
           </div>
